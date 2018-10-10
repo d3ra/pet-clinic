@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pet-clinic" />
+        <module name="pet-clinic-data" />
+        <module name="pet-clinic-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pet-clinic" target="1.8" />
+      <module name="pet-clinic-data" target="1.8" />
+      <module name="pet-clinic-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
