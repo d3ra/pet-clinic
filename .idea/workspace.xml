@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23c1854d-3f38-4cb7-8753-b18a166a1b57" name="Default Changelist" comment="Secondo commit">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/OwnerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/target/pet-clinic-web-0.0.1.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/target/surefire-reports/TEST-saep.spring.petclinic.PetClinicApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/target/surefire-reports/saep.spring.petclinic.PetClinicApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/checkout" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/pet-clinic-web-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/release.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkout" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkout" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pet-clinic-data/target/" />
@@ -38,28 +29,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="15" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="15" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="317" />
+          <entry key="java" value="384" />
           <entry key="txt" value="16" />
           <entry key="xml" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="317" />
+          <entry key="JAVA" value="384" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="174" />
         </counts>
@@ -81,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/OwnerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +81,89 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/PetType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/PetService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/VetService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +176,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,6 +198,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/OwnerService.java" />
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/PetService.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/VetService.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/PetType.java" />
       </list>
     </option>
   </component>
@@ -209,6 +283,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="petclinic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pet-clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-clinic" type="462c0819:PsiDirectoryNode" />
+              <item name="pet-clinic-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="petclinic" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pet-clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-clinic" type="462c0819:PsiDirectoryNode" />
+              <item name="pet-clinic-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="petclinic" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +312,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539175358289" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539175853752" />
     <property name="last_opened_file_path" value="$USER_HOME$/source/spring/spring5-di-demo" />
   </component>
   <component name="RecentsManager">
@@ -351,65 +445,43 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.2764141" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18303095" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32983193" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.30147058" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32983193" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.2764141" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/PetType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Vet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,10 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/OwnerService.java">
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/VetService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -475,6 +547,74 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/services/OwnerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/saep/spring/petclinic/model/PetType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
