@@ -4,10 +4,6 @@ import saep.spring.petclinic.model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
-    Vet findById(Long id);
+public interface VetService extends CrudService<Vet, Long> {
 
-    Vet save(Vet owner);
-
-    Set<Vet> findAll();
 }
