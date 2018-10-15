@@ -1,5 +1,14 @@
-/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java
-/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java
 /home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Vet.java
 /home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/PetType.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/CrudService.java
 /home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Owner.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/OwnerService.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/VetService.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Pet.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/Person.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/map/OwnerServiceMap.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/map/AbstractMapService.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/map/VetServiceMap.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/PetService.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/services/map/PetServiceMap.java
+/home/saep-ict/gitkraken/pet-clinic/pet-clinic-data/src/main/java/saep/spring/petclinic/model/BaseEntity.java

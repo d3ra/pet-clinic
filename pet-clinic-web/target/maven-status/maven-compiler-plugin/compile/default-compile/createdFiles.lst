@@ -1,1 +1,5 @@
+saep/spring/petclinic/controllers/VetController.class
 saep/spring/petclinic/PetClinicApplication.class
+saep/spring/petclinic/controllers/OwnerController.class
+saep/spring/petclinic/bootstrap/DataLoader.class
+saep/spring/petclinic/controllers/IndexController.class

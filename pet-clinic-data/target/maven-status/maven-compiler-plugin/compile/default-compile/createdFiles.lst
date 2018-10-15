@@ -1,5 +1,14 @@
-saep/spring/petclinic/model/Pet.class
+saep/spring/petclinic/services/OwnerService.class
 saep/spring/petclinic/model/Owner.class
+saep/spring/petclinic/services/map/PetServiceMap.class
+saep/spring/petclinic/services/map/VetServiceMap.class
+saep/spring/petclinic/services/map/OwnerServiceMap.class
 saep/spring/petclinic/model/Person.class
 saep/spring/petclinic/model/PetType.class
 saep/spring/petclinic/model/Vet.class
+saep/spring/petclinic/model/Pet.class
+saep/spring/petclinic/model/BaseEntity.class
+saep/spring/petclinic/services/CrudService.class
+saep/spring/petclinic/services/map/AbstractMapService.class
+saep/spring/petclinic/services/VetService.class
+saep/spring/petclinic/services/PetService.class
